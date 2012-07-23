@@ -35,11 +35,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.AdapterView.AdapterContextMenuInfo;
 
-/**
- * Maintain list of Customers
- * @author FSchiphorst
- *
- */
 public class CustomersList extends ListActivity {
     private static final int ACTIVITY_CREATE=0;
     private static final int ACTIVITY_EDIT=1;

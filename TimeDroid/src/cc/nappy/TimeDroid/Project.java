@@ -24,11 +24,6 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 
-/**
- * Edit Project 
- * @author FSchiphorst
- *
- */
 public class Project extends Activity {
 
 	private EditText mDescriptionText;

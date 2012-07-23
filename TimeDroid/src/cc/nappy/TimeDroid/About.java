@@ -19,11 +19,6 @@ package cc.nappy.TimeDroid;
 import android.app.Activity;
 import android.os.Bundle;
 
-/**
- * Simple about dialog
- * @author FSchiphorst
- *
- */
 public class About extends Activity {
     /** Called when the activity is first created. */
     @Override

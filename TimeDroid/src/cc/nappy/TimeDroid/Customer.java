@@ -24,11 +24,6 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 
-/**
- * Edit a Customer
- * @author FSchiphorst
- *
- */
 public class Customer extends Activity {
 	private EditText mNameText;
     private CheckBox mActiveCheck;
