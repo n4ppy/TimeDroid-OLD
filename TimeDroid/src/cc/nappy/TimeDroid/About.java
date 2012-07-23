@@ -33,10 +33,4 @@ public class About extends Activity {
    }  
 }
 
-// v0.16.0 	frasch	bugfix TemplateOn = 0 onpause 	
-// V1.0.0	frasch	add LIMIT to select template (def 5)
-// V1.1.0	frasch	make spinner more up to date by filling data every time
-//					spinner is opende through button click
-// V1.2.0	frasch	added tests to get to a TDD situation
-// V1.3.0	frasch	clean up screens and change to 4.0
 
