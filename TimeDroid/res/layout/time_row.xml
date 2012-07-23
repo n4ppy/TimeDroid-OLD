@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+<TextView android:id="@+id/textTimeDesc" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="10dp"
+     android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+
+
+
+<TextView android:id="@+id/textTimeStart" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="10dp"
+    android:layout_below="@+id/textTimeDesc"
+    android:layout_height="wrap_content" android:layout_width="160dp"/>
+<TextView android:id="@+id/textTimeTotal" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingLeft="10dp"
+    android:layout_toRightOf="@+id/textTimeStart"
+    android:layout_below="@+id/textTimeDesc"
+    android:layout_height="wrap_content" android:layout_width="100dp"/>
+<ToggleButton android:text="ToggleButton" 
+              android:id="@+id/toggleButtonTimeActive" 
+              android:layout_width="wrap_content" 
+              android:layout_height="wrap_content" android:layout_alignParentRight="true" android:focusable="false" android:focusableInTouchMode="false"/>
+</RelativeLayout>
+
+
+

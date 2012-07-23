@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="cc.nappy.TimeDroid" android:versionName="@string/app_version">
+    <uses-sdk android:minSdkVersion="4"></uses-sdk>
+    <application android:icon="@drawable/ic_launcher_timedroid4" android:description="@string/app_desc" android:label="TimeDroid">
+        <activity android:name=".TimeList" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TimeReport" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TimeEdit" android:label="@string/app_name"/>
+        <activity android:name=".SettingsList" android:label="@string/app_name"/>
+        <activity android:name=".Setting" android:label="@string/app_name"/>
+        <activity android:name=".CustomersList" android:label="@string/app_name"/>
+        <activity android:name=".Customer" android:label="@string/app_name"/>
+        <activity android:name=".ProjectsList" android:label="@string/app_name"/>
+        <activity android:name=".Project" android:label="@string/app_name"/>
+        <activity android:name=".About" android:label="@string/app_name"/>
+        <activity android:name=".TimePreferences" android:label="@string/app_name"/>
+    </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+</manifest> 

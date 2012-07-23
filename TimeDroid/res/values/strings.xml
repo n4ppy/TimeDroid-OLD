@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TimeDroid</string>
+    <string name="app_version">V1.3.0</string>
+    <string name="app_desc">Time keeping</string>
+    
+    <string name="no_projects">No projects!</string>
+    <string name="no_customers">No customers!</string>
+    <string name="no_times">No time!</string>
+    <string name="empty_date">99/99/9999</string>
+    <string name="empty_time">99:99</string>
+    <string name="edit_text">EditText</string>
+    
+    <string name="but_add_time">Add</string>
+    <string name="but_add_template">Select template</string>
+    <string name="lab_report_to">to</string>
+    <string name="lab_client">Client</string>
+    <string name="lab_project">Project</string>
+    <string name="lab_description">Description</string>
+    <string name="lab_start">Start</string>
+    <string name="lab_time">Time</string>
+    <string name="but_save">Save</string>
+    <string name="but_cancel">Cancel</string>
+    <string name="but_confirm">Confirm</string>
+    
+    <string name="menu_customer_insert">Add customer</string>
+    <string name="menu_customer_delete">Delete customer</string>
+    <string name="customer_name">Name</string>
+    <string name="customer_active">Active</string>
+    
+    <string name="menu_project_insert">Add project</string>
+    <string name="menu_project_delete">Delete project</string>
+    <string name="project_description">Description</string>
+    <string name="project_active">Active</string>
+    
+    <string name="menu_closeall">Close All</string>
+    <string name="menu_reports">Reports</string>
+    <string name="menu_preferences">Preferences</string>
+
+    <string name="menu_time_close">Close time</string>
+    <string name="menu_time_delete">Delete time</string>
+    
+    <string name="menu_report_today">Today</string>
+    <string name="menu_report_monththis">This month</string>
+    <string name="menu_report_monthlast">Last month</string>
+    <string name="menu_report_alltime">All</string>
+    <string name="menu_report_export">Export list</string>
+    
+    <string name="confirmexport">Exported times</string>
+    <string name="confirmclosed">All closed</string>
+
+    <string name="warning_cust_in_use">Customer still in use</string>
+    <string name="warning_project_in_use">Project still in use</string>
+    <string name="warning_lose_time">Sure you want to lose time?</string>
+    
+    <string name="default_filename_export">timereport.csv</string>    
+    <string name="default_description">Misc</string>    
+ </resources>

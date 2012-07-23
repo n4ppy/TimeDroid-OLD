@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory android:title="Customers">
+                 <Preference android:title="Customer list"
+                             android:summary="Tap to edit Customers" 
+                             android:key="CustList" />
+                <ListPreference
+                        android:title="Customer"
+                        android:summary="Select the default customer"
+                        android:key="CustomerPref" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="Projects">
+                 <Preference android:title="Project list"
+                             android:summary="Tap to edit Projects" 
+                             android:key="ProjList"/>
+                <ListPreference
+                        android:title="Project"
+                        android:summary="Select the default project"
+                        android:key="ProjectPref" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="Other settings">
+                <EditTextPreference
+                        android:name="Description"
+                        android:summary="Default description"
+                        android:defaultValue="Misc"
+                        android:title="Set the default description"
+                        android:key="DescriptionPref" />
+                <EditTextPreference
+                        android:name="Template days"
+                        android:summary="Look back days for template"
+                        android:defaultValue="5"
+                        android:title="Set the number of days"
+                        android:key="TemplateDaysPref" />
+                <EditTextPreference
+                        android:name="Template limit"
+                        android:summary="Limit number op items"
+                        android:defaultValue="5"
+                        android:title="Set the number of items"
+                        android:key="TemplateItemsPref" />
+                <CheckBoxPreference
+                        android:title="Send to Dropbox"
+                        android:defaultValue="true"
+                        android:summary="Should the export be send to dropbox"
+                        android:key="DropBoxPref" />                
+                <EditTextPreference
+                        android:name="Export file name"
+                        android:summary="Filename of the export file"
+                        android:defaultValue="timereport.txt"
+                        android:title="Set the file name"
+                        android:key="ExportFilenamePref" />
+        </PreferenceCategory>
+        <Preference android:title="About"
+                    android:summary="Tap to see version info" 
+                    android:key="AboutPref">
+            <intent android:targetPackage="cc.nappy.TimeDroid"
+                    android:targetClass="cc.nappy.TimeDroid.About"/>
+        </Preference>
+</PreferenceScreen>
