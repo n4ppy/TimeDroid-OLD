@@ -39,14 +39,14 @@ public class TrickTest extends TestCase {
 	/* curTotal */
 	/************/
 	
-//	public void testcurTotal_emptycur() {
-//		Cursor cur = MockCursor();
+//public void testcurTotal_emptycur() {
+//		Cursor cur = MockCursor;
 //		assertEquals("00:00:00", Tricks.curTotal(cur, true));
 //	}
 	
 	public void testcurTotal_nocur() {
 		Cursor cur = null;
-		assertEquals("00:00:00", Tricks.curTotal(cur, true));
+		assertEquals("00:00:00", Tricks.returnTotalTime(cur, true));
 	}
 	
 	/********************/

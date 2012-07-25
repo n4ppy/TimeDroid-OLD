@@ -17,7 +17,7 @@ public class Tricks {
 	 * @param cur
 	 * @return total as string
 	 */
-	public static String curTotal(Cursor cur, boolean noSeconds) {
+	public static String returnTotalTime(Cursor cur, boolean noSeconds) {
 		String rVal = "00:00:00";
 		
         if (cur != null) {

@@ -123,7 +123,7 @@ public class TimeReport extends ListActivity {
     	        Tricks.dstrTstr2cal(etEndDate.getText().toString(), "00:00:00"));
         startManagingCursor(TimeCursor);
 
-        tvTotalTime.setText(Tricks.curTotal(TimeCursor, true));
+        tvTotalTime.setText(Tricks.returnTotalTime(TimeCursor, true));
 
         // cursor seems to survive the abuse :)
 

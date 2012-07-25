@@ -191,7 +191,7 @@ public class TimeList extends ListActivity {
 			mHandler.postDelayed(mUpdateTimeTask, updateEvery);
 		}
 
-		tvTotalTime.setText(Tricks.curTotal(TimeCursor, false));
+		tvTotalTime.setText(Tricks.returnTotalTime(TimeCursor, false));
 
 		mListAdapter = new MyAdapter(TimeList.this, TimeCursor);
 		setListAdapter(mListAdapter);
@@ -201,7 +201,7 @@ public class TimeList extends ListActivity {
 
 	private Runnable mUpdateTimeTask = new Runnable() {
 		public void run() {
-			tvTotalTime.setText(Tricks.curTotal(TimeCursor, false));
+			tvTotalTime.setText(Tricks.returnTotalTime(TimeCursor, false));
 			if (TimeCursor.getCount() > 0) {
 				// check every 30 seconds
 				mHandler.postDelayed(mUpdateTimeTask, updateEvery);
